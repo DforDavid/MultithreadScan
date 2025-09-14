@@ -24,7 +24,7 @@ int main() {
 
 	// ---  CONTROL PANEL -------------|
 	int SIZE = 1000000;		//Size of the integer list
-	const int Cores = 16;	//Core number you want to use - Avoid using higher number than your total CPU Cores
+	const int Cores = 2;	//Core number you want to use - Avoid using higher number than your total CPU Cores
 	int numberToSearch = 0; //The integer we are searching for
 	// --------------------------------|
 
