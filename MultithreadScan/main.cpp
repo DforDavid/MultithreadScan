@@ -9,7 +9,7 @@ using namespace std;
 
 static vector<int> container;
 
-//Search meathod for threads
+//Search method for threads
 void search(int start, int end, int numberToSearch, int* ptr) {
 	int timesFound = 0;
 	for (int i = start; i < end; i++) {
