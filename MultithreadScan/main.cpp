@@ -78,11 +78,5 @@ int main() {
 	std::cout << timePassed2 << "ms to scan using multithread and found element " << timesFound << " times \n";
 	std::cout << "Approximately " << timePassed / timePassed2 << " times faster \n";
 	//---------------------------------|
-
-	//thread th3(&thirdThread::run);
-	//thread th2(&threadex::run);
-	//th3.join();
-	//cout << " message from main thread \n";
-	//th2.join();
 	return 0;
 }
